@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Puzzle.MainPage">
+
+    <StackLayout>
+        <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+            </Grid.ColumnDefinitions>
+            <Button AutomationId="Btn1" x:Name="Btn1" Grid.Column="0" Grid.Row="0" Text="" Clicked="Btn_Clicked"/>
+            <Button AutomationId="Btn2" x:Name="Btn2" Grid.Column="1" Grid.Row="0" Text="" Clicked="Btn_Clicked"/>
+            <Button AutomationId="Btn3" x:Name="Btn3" Grid.Column="2" Grid.Row="0" Text="" Clicked="Btn_Clicked"/>
+            <Button AutomationId="Btn4" x:Name="Btn4" Grid.Column="0" Grid.Row="1" Text="" Clicked="Btn_Clicked"/>
+            <Button AutomationId="Btn5" x:Name="Btn5" Grid.Column="1" Grid.Row="1" Text="" Clicked="Btn_Clicked"/>
+            <Button AutomationId="Btn6" x:Name="Btn6" Grid.Column="2" Grid.Row="1" Text="" Clicked="Btn_Clicked"/>
+            <Button AutomationId="Btn7" x:Name="Btn7" Grid.Column="0" Grid.Row="2" Text="" Clicked="Btn_Clicked"/>
+            <Button AutomationId="Btn8" x:Name="Btn8" Grid.Column="1" Grid.Row="2" Text="" Clicked="Btn_Clicked"/>
+            <Button AutomationId="Btn9" x:Name="Btn9" Grid.Column="2" Grid.Row="2" Text="" Clicked="Btn_Clicked"/>
+
+        </Grid>
+    </StackLayout>
+
+</ContentPage>
